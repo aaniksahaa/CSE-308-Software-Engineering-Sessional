@@ -1,0 +1,2 @@
+A1 -> Decorator 
+A2 -> Adapter

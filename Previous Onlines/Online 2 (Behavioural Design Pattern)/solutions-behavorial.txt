@@ -1,0 +1,4 @@
+A1 -> State
+A2 -> Strategy
+B1 -> Mediator
+B2 -> Observer

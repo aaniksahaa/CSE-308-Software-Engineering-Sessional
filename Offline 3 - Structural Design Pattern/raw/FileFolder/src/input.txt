@@ -1,0 +1,57 @@
+mkdrive C
+cd C:\
+mkdir Music
+cd Music
+mkdir mp3
+mkdir mp4
+cd mp3
+touch rainbow.mp3 20
+touch moon.mp3 25
+list
+cd ..
+list
+cd mp4
+touch moonlit.mp4 35
+touch sunshine.mp4 45
+cd ..
+touch dream.flv 10
+touch sing.mkv 65
+list
+cd ~
+list
+delete C:\
+cd C:\
+delete mp4
+delete -r mp4
+list
+cd ..
+list
+cd C:\
+cd Music
+delete -r mp4
+cd ..
+list
+cd Music
+list
+ls dream.mp4
+ls dream.flv
+ls mp3
+delete mp3
+delete dream.flv
+ls dream.flv
+cd mp3
+list
+delete rainbow.mp3
+delete moon.mp3
+cd ..
+list
+delete mp3
+cd ~
+list
+cd C:\
+list
+touch demo.txt 5
+list
+delete demo.txt
+list
+
